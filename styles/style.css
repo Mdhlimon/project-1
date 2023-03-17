@@ -16,7 +16,7 @@ body{
 }
 .nav-btn{
     display: flex;
-    /* gap: 20px; */
+    gap: 20px;
     justify-content: space-between;
 }
 .nav-btn button{
@@ -28,6 +28,7 @@ body{
     display: flex;
     margin-top: 60px;
     font-family: 'Caladea', serif;
+    justify-content: space-between;
 }
 
 .header-text{
@@ -52,18 +53,94 @@ body{
     background-repeat: no-repeat;
     /* background-image: initial; */
     background-position-x: right;
+    margin-right: 60px;
 }
 .header-img img{  
     height: 500px;
     width: 400px;
 }
-.course-partn{
+.course-partan{
     display: flex;
     justify-content: space-between;
     background-image: url(../images/course-bag.png);
-    width: 900px;
-
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 50px;
+    align-items: center;
+    /* margin: 0px 100px; */
+    position: relative;
 }
-.course-partn div img{
+.course-img{
+    /* padding-top: 10px; */
+    height: 40px;
+    /* padding: 5px; */
+}
+.course-partan p{
+    position: absolute;
+    top: -36px;
+    font-family: 'Caladea';
+    font-size: 26px;
+    left: 55px;
+}
+
+.popular-courses{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popular-course{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 15px 0px 8px;
+    background-color:  rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+}
+.popular-course button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.course-list{
+    display: flex;
+    gap: 15px;
+}
+.laptop{
+    background-color: #381D74;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.laptop h4,hr,div{
+    margin: 0px 30px;
+}
+.lesson{
+    display: flex;
+    justify-content: space-between;
+}
+.lesson div{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.lesson-img{
+    padding: 10px;
+    background-color: #7966EA;
+    border-radius: 100%;
+    /* size: 100px; */
+}
+.lesson-btn{
+    width: 100px;
     height: 30px;
+    border-radius: 50px;
+    /* margin-right: 20px; */
+}
+.course-rating{
+    display: flex;
+}
+.course-trainer{
+    display: flex;
 }
